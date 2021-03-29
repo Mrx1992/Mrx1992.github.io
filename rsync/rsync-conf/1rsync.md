@@ -35,7 +35,7 @@ rsyncd.conf
 ## 启动rsync进程
 - rsync守护进程通过为rsync指定--daemon选项来启动。
 
-## 2全局变量
+## [2全局变量](2rsync-global.md)
 
 ### 2全局变量
 
@@ -48,13 +48,13 @@ rsyncd.conf
 
 ### 3子节点
 
-#### 3.1
+#### [3.1](3.1rsync-model1.md)
 
 - comment (描述 解释)
 - path（路径）
 - use chroot（使用chroot）
 
-#### 3.2
+#### [3.2](3.2rsync-model2.md)
 
 - daemon chroot(守护进程chroot)
 - proxy protocol(代理协议)
@@ -62,7 +62,7 @@ rsyncd.conf
 - numeric ids(数字化IDs)
 - munge symlinks（符号链接）
 
-#### 3.3
+#### [3.3](3.3rsync-model3.md)
 
 - charset（字符集）
 - max connections（最大连接数）
@@ -80,7 +80,7 @@ rsyncd.conf
 - daemon uid(守护进程uid)
 - daemon gid(守护进程运行的gid)
 
-#### 3.4
+#### [3.4](3.4rsync-model4.md)
 
 - fake super(假超级)
 - filter(过滤)
@@ -92,7 +92,7 @@ rsyncd.conf
 - outgoing chmod（导出权限）
 - auth users（认证用户）
 
-#### 3.5
+#### [3.5](3.5rsync-model5.md)
 
 - secrets file(密钥文件)
 - strict modes(严谨模式)
@@ -103,14 +103,16 @@ rsyncd.conf
 - ignore errors（忽略错误）
 - ignore nonreadable（rsync守护进程忽略用户不可读文件）
 
-#### 3.6
+#### [3.6](3.6rsync-model6.md)
 
 - transfer logging（格式化日志）
 - log format(日志格式化)
 - timeout(超时)
 - refuse options(拒绝选择)
 
-#### 3.7
+#### [3.7](3.7rsync-model7.md)
 
 - dont compress(不要压缩)
 - early exec, pre-xfer exec, post-xfer exec(执行)
+
+### [4.模块参数总结](4rsync-directives.md)
