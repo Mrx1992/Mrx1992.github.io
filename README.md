@@ -6,7 +6,7 @@
 
 ### rsync
 
-[rsyncd服务端](/rsync/rsync-conf/1rsync.md)
+[rsyncd服务端](rsync/rsync-conf/1rsync.md)
 
 ### ssh
 
