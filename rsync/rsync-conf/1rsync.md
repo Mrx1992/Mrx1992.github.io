@@ -1,5 +1,8 @@
 # 名称
 
+参考官网：
+[rsync官网](https://download.samba.org/pub/rsync/rsyncd.conf.5.html)
+
 - rsyncd.conf - 守护进程模式下的rsync配置文件
 
 ## 简介
