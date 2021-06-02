@@ -6,11 +6,13 @@
 
 ### rsync
 
-[rsyncd服务端](/rsync/rsync-conf/1rsync.md)
+[rsyncd服务端](rsync/rsync-conf/1rsync.md)
+
+[rsync命令](rsync/rsync-cmd/1rsync.md)
 
 ### ssh
 
-[ssh命令](/ssh/ssh/1ssh.md)
+[ssh命令](ssh/ssh/1ssh.md)
 
 ## 编程语言
 
